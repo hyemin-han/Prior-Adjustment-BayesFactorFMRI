@@ -1,0 +1,902 @@
+Mask:
+Reference Space               = MNI152
+Dimensions                    = 77x96x79
+Number of within-brain voxels = 264227
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = working_memory.txt
+Number of foci                = 3748
+Number of experiments         = 447
+Total number of subjects      = 7070
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = working_memory_ALE.nii
+FWHM minimum value            = 8.533068904047733
+FWHM median value             = 9.755397007122182
+FWHM maximum value            = 11.37334466796002
+Minimum ALE score             = 4.586192E-13
+Maximum ALE score             = 0.1733943
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = working_memory_P.nii
+Minimum P value               = 3.334E-42
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.01
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 155544 mm^3
+Chosen min. cluster size      = 2624 mm^3
+Thresholded ALE image         = working_memory_C01_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 67752 mm^3 from (-14,-10,-20) to (60,60,68) centered at (28.6,21.5,29.5) with 11 peaks
+     with a max value of .1734 ALE, 3.334E-42 P, 13.57 Z at (0,16,50) 
+   Labels: (Gray Matter only)
+     Hemisphere: 80.6% Right Cerebrum, 19.4% Left Cerebrum
+     Lobe: 77.6% Frontal Lobe, 12.2% Sub-lobar, 10.2% Limbic Lobe
+     Gyrus: 27.1% Middle Frontal Gyrus, 14.3% Medial Frontal Gyrus, 13.5% Superior Frontal Gyrus, 13% Cingulate Gyrus, 9.5% Precentral Gyrus, 8.1% Inferior Frontal Gyrus, 7.7% Insula, 2.5% Sub-Gyral, 1.9% Claustrum, 1.4% Lentiform Nucleus, 1% Extra-Nuclear
+     Cell Type: 37.1% Brodmann area 6, 19% Brodmann area 9, 13.2% Brodmann area 32, 7.5% Brodmann area 13, 6.1% Brodmann area 8, 3.7% Brodmann area 10, 3.6% Brodmann area 47, 2.5% Brodmann area 24, 1.4% Putamen, 1.2% Brodmann area 46, 1% Brodmann area 45
+
+ #2: 42952 mm^3 from (-62,-12,-18) to (-20,60,62) centered at (-40.7,20.3,21.9) with 8 peaks
+     with a max value of .1318 ALE, 6.0687386E-28 P, 10.9 Z at (-46,12,22) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 85% Frontal Lobe, 14.5% Sub-lobar
+     Gyrus: 36.2% Middle Frontal Gyrus, 25.1% Precentral Gyrus, 19% Inferior Frontal Gyrus, 11.1% Insula, 3% Claustrum, 2.4% Sub-Gyral, 2.3% Superior Frontal Gyrus
+     Cell Type: 34.8% Brodmann area 6, 26.8% Brodmann area 9, 10.7% Brodmann area 13, 6.7% Brodmann area 10, 5% Brodmann area 47, 3.1% Brodmann area 44, 2.6% Brodmann area 8, 2.4% Brodmann area 46, 1.7% Brodmann area 45
+
+ #3: 18248 mm^3 from (6,-74,32) to (58,-36,64) centered at (35.7,-55.3,47) with 5 peaks
+     with a max value of .1144 ALE, 1.4944085E-22 P, 9.7 Z at (36,-56,50) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 100% Parietal Lobe
+     Gyrus: 34.5% Precuneus, 30.1% Superior Parietal Lobule, 29.5% Inferior Parietal Lobule, 3.5% Supramarginal Gyrus, 2% Angular Gyrus
+     Cell Type: 58.1% Brodmann area 7, 30% Brodmann area 40, 7.1% Brodmann area 19, 4.8% Brodmann area 39
+
+ #4: 17904 mm^3 from (-52,-76,32) to (-6,-36,62) centered at (-32.4,-56.4,46.6) with 6 peaks
+     with a max value of .1148 ALE, 1.1356482E-22 P, 9.73 Z at (-42,-46,44) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 98.8% Parietal Lobe, 1.2% Temporal Lobe
+     Gyrus: 38.5% Inferior Parietal Lobule, 34% Precuneus, 19.2% Superior Parietal Lobule, 5.4% Supramarginal Gyrus, 1.5% Angular Gyrus
+     Cell Type: 49.1% Brodmann area 7, 41.2% Brodmann area 40, 5.6% Brodmann area 39, 4.1% Brodmann area 19
+
+ #5: 5992 mm^3 from (-22,-20,0) to (16,10,18) centered at (-6.1,-6,7.6) with 3 peaks
+     with a max value of 0.0691 ALE, 1.8147428E-10 P, 6.27 Z at (-18,2,6) 
+   Labels: (Gray Matter only)
+     Hemisphere: 70.6% Left Cerebrum, 29.4% Right Cerebrum
+     Lobe: 100% Sub-lobar
+     Gyrus: 79.1% Thalamus, 17.8% Lentiform Nucleus, 3% Caudate
+     Cell Type: 24.8% Medial Dorsal Nucleus, 16.4% Ventral Lateral Nucleus, 11.2% Putamen, 7.1% Anterior Nucleus, 6.2% Ventral Anterior Nucleus, 5% Lateral Globus Pallidus, 3% Caudate Body
+
+ #6: 2696 mm^3 from (-52,-76,-28) to (-32,-52,-2) centered at (-43.2,-60,-13.8) with 4 peaks
+     with a max value of 0.0619 ALE, 7.940429E-9 P, 5.65 Z at (-48,-58,-12) 
+   Labels: (Gray Matter only)
+     Hemisphere: 70.3% Left Cerebellum, 29.7% Left Cerebrum
+     Lobe: 44.5% Posterior Lobe, 27.1% Temporal Lobe, 25.8% Anterior Lobe, 2.6% Occipital Lobe
+     Gyrus: 34.8% Declive, 28.4% Fusiform Gyrus, 25.8% Culmen, 6.5% Uvula, 3.2% Tuber, 1.3% Inferior Temporal Gyrus
+     Cell Type: 27.1% Brodmann area 37, 2.6% Brodmann area 19
+
+
+Experiment Table:
+[ 5 5 2 0 0 1 1 1 6 1 2 1 1 1 2 1 6 1 0 0 2 3 2 5 5 4 4 1 0 0 0 1 1 0 0 1 0 0 0 0 0 1 1 0 3 1 4 0 5 0 0 0 0 0 2 3 2 2 0 2 0 3 3 1 0 0 0 0 0 3 2 0 4 2 0 0 1 0 2 0 1 0 0 2 4 0 0 4 2 1 0 1 1 1 1 2 2 4 4 2 3 1 0 0 0 1 3 0 5 0 2 4 4 3 1 1 1 2 2 2 1 1 1 1 1 1 3 0 0 0 0 0 0 1 3 1 3 2 0 1 0 0 3 4 0 0 4 5 1 0 1 2 1 1 0 1 1 0 1 5 2 1 0 0 0 0 1 0 1 3 3 1 0 3 3 1 0 3 2 4 0 2 0 3 3 3 2 4 1 0 6 0 0 1 2 0 1 0 1 1 0 1 1 0 0 0 1 5 5 3 4 6 1 0 0 0 0 0 0 2 1 0 2 2 1 1 3 2 6 0 0 0 6 1 1 0 0 0 0 0 7 15 0 0 0 2 1 6 2 7 5 0 3 2 2 2 2 2 2 1 0 0 0 0 0 4 5 7 3 6 6 9 5 4 0 2 6 2 2 3 3 3 0 0 0 3 5 1 1 0 0 0 0 2 0 0 0 0 2 3 3 4 4 2 0 2 1 1 2 1 1 9 0 0 0 3 6 0 1 1 2 4 1 3 0 0 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 1 0 3 0 2 0 2 6 1 0 0 0 0 0 0 4 0 0 3 0 0 22 4 14 9 0 0 13 7 0 3 1 0 0 0 0 0 0 0 0 0 1 2 0 0 0 4 1 5 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 7 3 1 0 0 0 1 0 2 1 1 0 0 0 2 2 3 3 1 0 0 1 1 5 4 2 0 1 0 0 0 0 0 ]
+[ 3 4 3 0 0 2 0 0 2 0 1 0 6 0 2 0 3 1 0 2 1 0 1 1 1 1 1 1 1 0 0 0 0 1 0 1 0 0 0 0 0 1 1 1 2 2 3 0 4 0 0 0 0 0 0 0 0 4 0 2 2 1 2 1 0 0 1 0 0 0 1 1 0 0 0 0 2 0 2 0 0 0 0 2 1 0 0 3 2 0 0 0 0 0 1 0 1 2 2 1 0 0 0 1 0 0 4 0 4 0 0 2 2 1 0 0 0 2 1 2 1 1 1 0 0 0 1 1 1 1 1 0 0 1 0 2 1 1 1 1 2 1 1 1 2 0 4 4 2 2 2 1 0 1 2 1 2 0 6 3 2 0 0 0 0 0 0 0 0 1 1 0 0 2 2 0 0 1 3 1 0 2 1 1 3 1 2 0 2 1 0 0 1 1 1 1 1 0 0 0 2 0 0 0 0 0 1 0 3 1 3 0 0 0 0 0 0 0 0 0 2 0 2 1 0 2 4 2 6 0 0 0 4 0 0 0 0 3 0 0 2 2 0 0 0 0 3 2 0 4 4 2 0 0 1 1 2 2 0 0 0 0 0 0 0 2 0 2 2 2 2 3 1 0 0 0 3 0 0 2 0 2 0 0 1 2 2 2 2 0 0 1 0 1 0 0 0 0 1 0 0 0 2 0 0 2 1 0 2 1 0 5 0 0 0 4 3 0 2 1 2 0 1 1 1 1 1 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 4 0 0 0 0 0 0 3 1 0 0 13 0 10 1 16 0 0 0 0 0 2 0 2 1 0 1 0 0 0 0 0 0 0 0 0 1 1 0 2 0 5 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 3 2 2 0 0 0 1 7 1 2 0 0 0 1 0 2 0 0 0 0 0 1 2 0 2 1 0 0 0 0 2 2 3 0 2 1 0 0 0 0 ]
+[ 2 2 2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 0 1 1 0 0 0 2 0 1 0 0 0 0 0 0 0 1 1 0 1 2 0 0 0 0 0 1 1 0 0 0 1 0 0 3 1 0 0 0 0 0 0 0 2 2 0 1 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 1 0 0 1 1 0 0 1 0 1 0 2 1 0 0 2 2 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 1 0 1 1 1 1 1 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 3 0 1 1 0 0 0 0 0 0 0 1 0 0 1 0 0 2 3 3 1 0 0 0 0 0 0 0 0 0 0 0 0 2 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 3 0 2 3 3 0 0 2 0 3 0 0 1 0 1 0 0 0 1 1 1 0 0 1 0 0 1 0 0 0 0 0 0 2 0 2 2 0 2 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 1 0 1 1 1 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 2 3 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 8 8 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 3 1 0 0 0 0 2 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 ]
+[ 2 1 2 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 2 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 1 0 0 0 0 0 1 0 1 0 0 1 1 0 0 0 0 0 1 0 0 1 2 0 0 0 0 0 0 0 0 0 2 0 0 2 4 1 0 0 0 0 0 0 0 2 2 1 0 0 0 0 0 0 0 2 0 2 0 0 1 1 1 0 0 0 0 0 0 1 1 1 0 0 0 1 0 0 0 0 0 0 0 1 1 1 1 1 0 1 0 0 0 0 0 1 1 1 0 0 1 0 0 1 2 0 1 2 2 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 0 0 2 1 1 0 1 1 0 0 0 2 0 1 0 0 1 0 0 0 0 0 0 1 2 0 0 0 2 3 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 3 2 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 2 0 0 0 3 3 3 0 0 0 0 0 0 0 1 0 1 0 0 0 2 0 1 1 0 0 0 0 1 0 0 0 0 0 1 1 1 1 2 0 1 1 0 1 0 0 2 0 0 0 0 2 1 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 2 0 2 0 1 3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 8 11 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 1 1 1 2 0 0 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 1 0 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 2 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2 1 0 0 0 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 4 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 ]
+[ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 1 2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 ]
+
+Contributors to cluster #1
+5 foci from Dade L A, 2001: Odor Working Memory - Baseline 
+5 foci from Dade L A, 2001: Face Working Memory - Baseline 
+2 foci from Dade L A, 2001: Conjunction Analysis 
+1 foci from Sevostianov A, 2002: Mixed > (Pictures and Words) 
+1 foci from Petit L, 1998: Spatial Working Memory 
+1 foci from Petit L, 1998: Face Working Memory 
+6 foci from Bunge S A, 2001: Load 6 > Load 4 
+1 foci from Bunge S A, 2001: Load 4 High Recency > Load 4 
+2 foci from Bunge S A, 2001: Load-related Activation and Load Susceptibility 
+1 foci from Bunge S A, 2001: Interference-related Activation and Interference  Susceptibility 
+1 foci from Wagner A D, 1998: Encoding Words > Textures 
+1 foci from Wagner A D, 1998: Encoding Textures > Words 
+2 foci from Wagner A D, 1998: Retrieval Words > Textures 
+1 foci from Wagner A D, 1998: Retrieval Textures > Words 
+6 foci from Shen L, 1999: Common Activation 
+1 foci from Shen L, 1999: Visual Recognition > Spatial Recognition 
+2 foci from Cowell S F, 2000: Simple Mental Calculations 
+3 foci from Mencl W E, 2000: Brain/Behavior PLS 
+2 foci from Mencl W E, 2000: Brain/Age PLS 
+5 foci from Milham M P, 2003: Within-Region Analysis:  Interference vs. Control 
+5 foci from Milham M P, 2003: Region-Based Analysis:  Interference vs. Control 
+4 foci from Weder B, 2000: Patients < Normals 
+4 foci from Druzgal T J, 2001: Working Memory Load 
+1 foci from D'Esposito M, 1998: Verbal Task, AA 
+1 foci from D'Esposito M, 1998: Verbal Task, KH 
+1 foci from D'Esposito M, 1998: Spatial Task, KH 
+1 foci from D'Esposito M, 1998: Verbal Task, CM 
+1 foci from D'Esposito M, 1998: Verbal Task, DB 
+1 foci from D'Esposito M, 1998: Spatial Task, DB 
+3 foci from Desmond J E, 2003: Alcoholics, High vs. Low Load (uncorrected) 
+1 foci from Desmond J E, 2003: Controls, High vs. Low Load (uncorrected) 
+4 foci from Desmond J E, 2003: Alcoholics > Controls, High vs. Low Load (uncorrected) 
+5 foci from Hautzel H, 2002: Conjunction Analysis 
+2 foci from Owen A M, 1999: Spatial Span - Visuomotor Control 
+3 foci from Owen A M, 1999: Spatial Manipulation - Visuomotor Control 
+2 foci from Owen A M, 1999: Spatial Manipulation - Spatial Span 
+2 foci from Fiez J A, 1996: Positive Changes in Short Term Maintenance - Fixation 
+2 foci from Zurowski B, 2002: Main Effect of Working Memory 
+3 foci from Honey G D, 2002: Working Memory Task, Schizophrenic Patients 
+3 foci from Honey G D, 2002: Working Memory Task, Normals 
+1 foci from Jansma J M, 2004: Schizophrenic Patients vs. Normals 
+3 foci from Ortuno F, 2002: Main Effect of Counting 
+2 foci from Ortuno F, 2002: Interaction 
+4 foci from Ortuno F, 2002: Count Without Auditory Stimulation vs. Rest 
+2 foci from Ortuno F, 2002: Count Without Auditory Stimulation vs. Count with Auditory  Stimulation 
+1 foci from Landau S M, 2004: Encoding:  Practice by Load Interaction 
+2 foci from Landau S M, 2004: Retrieval:  Main Effect Only 
+1 foci from Landau S M, 2004: Encoding:  Practice Effect Only 
+2 foci from Petrides M, 1993: Self-ordered - Control 
+4 foci from Petrides M, 1993: Self-ordered - Conditional 
+4 foci from Berman K F, 1995: WCST > Control 
+2 foci from Goldberg T E, 1998: WCST - CON, Activations 
+1 foci from Goldberg T E, 1998: WCSTSHAD - CONSHAD, Activations 
+1 foci from Goldberg T E, 1998: (WCSTSHAD - CONSHAD) < (WCST - CON) 
+1 foci from Mostofsky S H, 2003: Primary Go Effects 
+1 foci from Mostofsky S H, 2003: Primary No-Go Effects 
+1 foci from Mostofsky S H, 2003: Primary Counting Go Effects 
+2 foci from Mostofsky S H, 2003: Primary Counting No-Go Effects 
+2 foci from Cairo T A, 2004: Encoding, Average Across All Loads 
+4 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+4 foci from Cairo T A, 2004: Maintenance 
+2 foci from Cairo T A, 2004: Retrieval, Average Across All Loads 
+3 foci from Cairo T A, 2004: Retrieval, Linear Regression with Load 
+1 foci from Manoach D S, 2005: Spatial > Shape WM Conjunction 
+1 foci from Manoach D S, 2005: Shape > Spatial WM, Schizophrenics > Controls 
+3 foci from Manoach D S, 2005: Spatial WM Conjunction 
+5 foci from Manoach D S, 2005: Shape WM Conjunction 
+2 foci from Manoach D S, 2005: Shape WM, Schizophrenics > Controls 
+4 foci from Perlstein W M, 2003: N-Back Load Main Effect, Load 
+4 foci from Perlstein W M, 2003: N-Back Load Main Effect, Normals 
+3 foci from Perlstein W M, 2003: N-Back Load Main Effect, Schizophrenics 
+1 foci from Perlstein W M, 2003: N-Back Group x Load Interaction, Load 
+1 foci from Perlstein W M, 2003: N-Back Group x Load Interaction, Group x Load 
+1 foci from Perlstein W M, 2003: N-Back Group x Load Interaction, Normals 
+2 foci from Perlstein W M, 2003: AX-CPT Cue Type Main Effect, Cue Type 
+2 foci from Perlstein W M, 2003: AX-CPT Cue Type Main Effect, Normals 
+2 foci from Perlstein W M, 2003: AX-CPT Cue Type Main Effect, Schizophrenics 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Cue Type 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Normals 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Schizophrenics 
+1 foci from Perlstein W M, 2003: AX-CPT Group x Cue Type x Scan Interaction, Cue Type 
+1 foci from Perlstein W M, 2003: AX-CPT Group x Cue Type x Scan Interaction, Group  Interaction 
+1 foci from Perlstein W M, 2003: AX-CPT Group x Cue Type x Scan Interaction, Normals 
+3 foci from Johnson M R, 2006: Controls Difficult > Schizophrenics Medium, Encoding 
+1 foci from Johnson M R, 2006: Schizophrenics Medium > Controls Medium, Retrieval,  Perfect Epochs, p<0.01 
+3 foci from Johnson M R, 2006: Controls, Activation Modulated by Load, Encoding 
+1 foci from Johnson M R, 2006: Schizophrenics, Activation Modulated by Load, Encoding 
+3 foci from Johnson M R, 2006: Controls, Activation Modulated by Load, Retrieval 
+2 foci from Johnson M R, 2006: Controls, Difficult 6 > Medium 6, Encoding 
+1 foci from Johnson M R, 2006: Controls, Difficult 6 > Medium 6, Retrieval 
+3 foci from Volle E, 2005: MemG Delay One, 3 Square vs. 1 Square 
+4 foci from Volle E, 2005: MemG Delay One, 5 Square vs. 3 Square 
+4 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Normals 
+5 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Schizophrenia Patients 
+1 foci from Quintana J, 2003: Retention, Logical vs. Rest, Schizophrenics 
+1 foci from Quintana J, 2003: Retention, Emotional vs. Rest, Schizophrenics 
+2 foci from Quintana J, 2003: Retention, Emotional vs. Rest, Normals 
+1 foci from Quintana J, 2003: Anticipation, Logical vs. Rest, Schizophrenics 
+1 foci from Quintana J, 2003: Anticipation, Logical vs. Rest, Normals 
+1 foci from Quintana J, 2003: Anticipation, Emotional vs. Rest, Normals 
+1 foci from Fiebach C J, 2005: Long vs. Short Object 
+1 foci from Meisenzahl E M, 2006: 2-Back vs. Fixation, Normals 
+5 foci from Meisenzahl E M, 2006: 2-Back Degraded vs. Fixation, Normals 
+2 foci from Meisenzahl E M, 2006: 2-Back vs. Fixation, Normals vs. Schizophrenics,  Before Treatment 
+1 foci from Meisenzahl E M, 2006: 2-Back Degraded vs. Fixation, Normals vs.  Schizophrenics, Before Treatment 
+1 foci from Schneider F, 2007: 0-Back vs. Fixation, Schizophrenics > Normals 
+1 foci from Schneider F, 2007: 2-Back vs. 0-Back, Schizophrenics > Normals 
+3 foci from Allen P P, 2006: 2-Back > 0-Back, Sham Depletion 
+3 foci from Allen P P, 2006: 2-Back > 0-Back, Acute Tryptophan Depletion 
+1 foci from Allen P P, 2006: N-Back, Sham Depletion > Acute Tryptophan Depletion 
+3 foci from Allen P P, 2006: Letter Fluency > Baseline, Sham Depletion 
+3 foci from Allen P P, 2006: Letter Fluency > Baseline, Acute Tryptophan Depletion 
+1 foci from Allen P P, 2006: Letter Fluency, Sham Depletion > Acute Tryptophan  Depletion 
+3 foci from Koshino H, 2008: Working Memory vs. Fixation, Autistic Patients 
+2 foci from Koshino H, 2008: Working Memory vs. Fixation, Controls 
+4 foci from Koshino H, 2008: Working Memory, Controls > Autistic Patients 
+2 foci from Walter H, 2007: Load 1 > Simple Reaction, Depressed Patients 
+3 foci from Walter H, 2007: Load 2 > Simple Reaction, Depressed Patients 
+3 foci from Walter H, 2007: Load 2 > Simple Reaction, Normals 
+3 foci from Walter H, 2007: Load 3 > Simple Reaction, Depressed Patients 
+2 foci from Walter H, 2007: Load 3 > Simple Reaction, Normals 
+4 foci from Fitzgerald P B, 2008: MDD Patients > Controls, TOL Planning - Rest 
+1 foci from Fitzgerald P B, 2008: Regions Correlated with Reaction Time During TOL Task  in Controls 
+6 foci from Fitzgerald P B, 2008: MDD Patients > Controls, 2-Back - 0-Back 
+1 foci from Sheridan M A, 2007: Delay, ADHD 
+2 foci from Sheridan M A, 2007: Retrieval, ADHD 
+1 foci from Sheridan M A, 2007: Retrieval, Normals 
+1 foci from Sheridan M A, 2007: Encoding, High Load > Low Load, Normals 
+1 foci from Sheridan M A, 2007: Encoding, High Load > Low Load, Normals > ADHD 
+1 foci from Koch K, 2007: Negative Olfactory-Induced Emotion, Females > Males 
+1 foci from Koch K, 2007: [2-Back Negative - 0-Back Negative] vs. [2-Back Neutral -  0-Back Neutral], Males 
+1 foci from Baumann O, 2007: Color-Coded Memory-Guided Saccades, Re-Ordering > Fixation 
+5 foci from Fehr T, 2007: Addition, Complex > Simple 
+5 foci from Fehr T, 2007: Subraction, Complex > Simple 
+3 foci from Fehr T, 2007: Multiplication, Complex > Simple 
+4 foci from Fehr T, 2007: Division, Complex > Simple 
+6 foci from Fehr T, 2007: Conjunction (All Conditions) 
+1 foci from Daumann J, 2003: Pure MDMA Users > Polyvalent MDMA Users, 1 Back 
+2 foci from Jager G, 2006: Novel Set > Contrasl Task, STERN 
+1 foci from Jager G, 2006: Tones, SAT > Rest 
+2 foci from Jacobsen L K, 2007: Increases in Smokers During Smoking Relative to  Non-Smokers 
+2 foci from Ganguli R, 1997: Auditory Memory Related Activations 
+1 foci from Ganguli R, 1997: Normals > Schizophrenics, Auditory Memory > Fixation 
+1 foci from Sanchez-Carrion R, 2008: 2-Back > 0-Back, Traumatic Brain Injury Patients 
+3 foci from Sanchez-Carrion R, 2008: 2-Back > 0-Back, Healthy Controls 
+2 foci from Sanchez-Carrion R, 2008: 3-Back > 0-Back, Traumatic Brain Injury Patients 
+6 foci from Sanchez-Carrion R, 2008: 3-Back > 0-Back, Healthy Controls 
+6 foci from Beneventi H, 2007: N-back Main Effect 
+1 foci from Beneventi H, 2007: Facial Expressions > Scrambled Drawings 
+1 foci from Nakao T, 2009: Obsessive Compulsive Disorder Patients > Normals, N-back 
+7 foci from Robinson J L, 2009: Familiarity > Fixation, Bipolar Patients + Healthy  Controls 
+15 foci from Robinson J L, 2009: Novelty > Fixation, Bipolar Patients + Healthy Controls 
+2 foci from Robinson J L, 2009: Bipolar Patients > Healthy Controls, Novelty 
+1 foci from Deckersbach T, 2008: 2-Back >  Fixation, Healthy Controls 
+6 foci from Deckersbach T, 2008: Mood Induction  >  No Induction, Healthy Controls 
+2 foci from Deckersbach T, 2008: Sadness Induction > Neutral State Induction, Healthy  Controls 
+7 foci from Deckersbach T, 2008: 2-Back >  Fixation, Bipolar Disorder 
+5 foci from Deckersbach T, 2008: Mood Induction  >  No Induction, Bipolar Disorder 
+3 foci from Deckersbach T, 2008: 2-Back > Fixation, Bipolar Disorder > Healthy Controls 
+2 foci from Deckersbach T, 2008: Mood Induction  >  No Induction, Bipolar Disorder >  Healthy Controls 
+2 foci from Kanayama G, 2004: Perception > Rest, Healthy Controls 
+2 foci from Kanayama G, 2004: Perception > Rest, Cannabis Users 
+2 foci from Kanayama G, 2004: Short-Delay Response > Rest, Healthy Controls 
+2 foci from Kanayama G, 2004: Short-Delay Response > Rest, Cannabis Users 
+2 foci from Kanayama G, 2004: Short-Delay Response - Perception, Cannabis Users -  Healthy Controls 
+1 foci from Kanayama G, 2004: Short-Delay Response - Perception, Healthy Controls -  Cannabis Users 
+4 foci from McNab F, 2008: No-Go > Oddball (Go/No-Go) 
+5 foci from McNab F, 2008: No-Go > Go 
+7 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+3 foci from McNab F, 2008: Stop > Go 
+6 foci from McNab F, 2008: Spatial Working Memory > Spatial Working Memory Control 
+6 foci from McNab F, 2008: Verbal Working Memory > Verbal Working Memory Control 
+9 foci from McNab F, 2008: Spatial and Verbal Working Memory Tasks 
+5 foci from McNab F, 2008: Go/No-Go and Stop Tasks w/ Oddball 
+4 foci from McNab F, 2008: Go/No-Go and Stop Tasks 
+2 foci from McNab F, 2008: Go/No-Go and both Memory Working Tasks 
+6 foci from McNab F, 2008: Stop Task and both Working Memory Tasks 
+2 foci from McNab F, 2008: Go/No-Go, stop Task and both Working Memory Tasks w/ Oddball 
+2 foci from McNab F, 2008: Go/No-Go, Stop Task and both Working Memory Tasks 
+3 foci from Schmidt H, 2009: (1, 2, and 3-back) vs. 0-back, Males 
+3 foci from Schmidt H, 2009: (1, 2, and 3-back) vs. 0-back, Females 
+3 foci from Elliott R, 1999: Guessing vs. Reporting (Suit + Color) 
+3 foci from Forn C, 2007: 2-Back > 0-Back, Healthy Controls 
+5 foci from Forn C, 2007: 2-Back > 0-Back, Relapsing-Remitting Multiple Sclerosis  Patients 
+1 foci from Chee M W L, 2004: Rested Wakefulness, PLUS > LTR 
+1 foci from Chee M W L, 2004: Sleep Deprived, PLUS > LTR 
+2 foci from Choo W C, 2005: Rested Wakefulness, 2-Back > 1-Back 
+2 foci from Choo W C, 2005: Load by State Interaction 
+3 foci from Kasahara M, 2011: Overall (Correct Responses Across Working Memory Load vs.  Rest), Healthy Controls 
+3 foci from Kasahara M, 2011: Overall (Correct Responses Across Working Memory Load vs.  Rest), TBI Patients 
+4 foci from Kasahara M, 2011: Linear Increase (Correct Responses Across Working Memory  Load vs. Rest), Healthy Controls 
+4 foci from Kasahara M, 2011: Linear Increase (Correct Responses Across Working Memory  Load vs. Rest), TBI Patients 
+2 foci from Kasahara M, 2011: Healthy Controls > TBI Patients 
+2 foci from McAllister T W, 1999: Main Effect of Working Memory Load in All Subjects 
+1 foci from McAllister T W, 1999: 1-Back > 0-Back, Healthy Controls 
+1 foci from McAllister T W, 1999: 2-Back > 1-Back, Healthy Controls 
+2 foci from McAllister T W, 1999: 1-Back > 0-Back, Mild Traumatic Brain Injury Patients 
+1 foci from McAllister T W, 1999: 2-Back > 1-Back, Mild Traumatic Brain Injury Patients 
+1 foci from Medaglia J D, 2011: Main Effect of Group 
+9 foci from Medaglia J D, 2011: Main Effect of Practice 
+3 foci from Medaglia J D, 2011: Main Effect of Load 
+6 foci from Medaglia J D, 2011: TBI Patients > Healthy Controls, 1-Back 
+1 foci from Perlstein W M, 2004: Load (Monotonically Increasing) 
+1 foci from Perlstein W M, 2004: Group X Load 
+2 foci from Perlstein W M, 2004: Regions Showing Monotonically Increasing Activity in  Healthy Controls 
+4 foci from Perlstein W M, 2004: Regions Showing Monotonically Increasing Activity in  TBI Patients 
+1 foci from Chen S H A, 2005: Activations Common to Working Memory and Motoric  Rehearsal, High Load > Low Load 
+3 foci from Chen S H A, 2005: Activations Found in Working Memory but not Motoric  Rehearsal, High Load > Low Load 
+1 foci from Walter H, 2007: Load Dependent Activations, Controls > Schizophrenia 
+2 foci from Oei N Y L, 2012: Neutral > Emotional Distractors 
+1 foci from Soto D, 2012: Cue-validity effects: Valid > Neutral > Invalid - Verbal 
+3 foci from Ring H, 1999: Activations In Both Healthy Controls and Autism Group,  Embedded Figures Task (EFT) - Fixation 
+2 foci from Ring H, 1999: Healthy Controls > Autism Group, Embedded Figures Task (EFT)  - Fixation 
+2 foci from Ring H, 1999: Healthy Controls > Autism Group, EFT Activations With Global  Mean FPQ As a Covariate 
+6 foci from Marvel C L, 2012: Manipulation (2 target -1 target) vs Storage (2 target -1  target) during delay 
+1 foci from Marvel C L, 2012: Manipulation (2 target - 1 target) vs Storage (2 target -  1 target) during encoding 
+4 foci from Christodoulou C, 2001: mPASAT > control, TBI patients 
+3 foci from Newsome M R, 2007: 1-Back minus 0-Back, Orthopedic Injury Patients, Cluster  A 
+22 foci from Newsome M R, 2007: 2-Back minus 0-Back, Traumatic Brain Injury Patients,  Cluster A 
+4 foci from Newsome M R, 2007: 2-Back minus 0-Back, Orthopedic Injury Patients, Cluster  A 
+14 foci from Newsome M R, 2007: 1-Back minus 0-Back, Orthopedic Injury patients, Cluster  B 
+9 foci from Newsome M R, 2007: 1-Back minus 0-Back, Othorpedic Injury  patients>Traumatic Brain Injury patients, Cluster B 
+13 foci from Newsome M R, 2007: 2-Back minus 0-Back, Orthopedic Injury patients, Cluster  C 
+7 foci from Clapp W C, 2010: IS interruptor > DS distractor 
+3 foci from Gazzaley A, 2014: Remember Scenes and Remember Faces > Passive View,  Univariate activity contrast 
+1 foci from Pardini J E, 2010: Positive Associations between Concussion Symptom  Severity and 2-Back vs. 0-Back Contrast 
+1 foci from Sanchez-Carrion R, 2008: fMRI-1: Traumatic Brain Injury Patients < Healthy  Control (2-Back > 0-Back) 
+2 foci from Sanchez-Carrion R, 2008: fMRI-1: Traumatic Brain Injury Patients < Healthy  Controls (3-Back > 0-Back) 
+4 foci from Shaw M E, 2009: Control, CVA analysis of variable and baseline 
+1 foci from Shaw M E, 2009: Control, CVA analysis of fixed, variable, and baseline 
+5 foci from Shaw M E, 2009: PTSD, CVA analysis of variable and baseline 
+1 foci from Li X, 2003: Tone > syllable 
+1 foci from Bahlmann J, 2007: All Conditions vs. Baseline 
+1 foci from Bertolino A, 2008: 2-back, Main effect of diagnosis (controls > patients) 
+1 foci from Bertolino A, 2009: Main effect of DRD2 on brain activity during working  memory 
+1 foci from Bertolino A, 2009: Interaction between DAT and DRD2 on brain activity  during working memory, uncorrected 
+1 foci from Bertolino A, 2009: Main effect of DRD2 on brain activity during encoding 
+1 foci from Bertolino A, 2009: Main effect of DAT on brain activity during encoding 
+1 foci from Bertolino A, 2009: Interaction between DAT and DRD2 on brain activity  during encoding, corrected 
+1 foci from Bertolino A, 2009: Interaction between DAT and DRD2 during encoding,  uncorrected 
+7 foci from Crossley N A, 2009: Working Memory, All Groups 
+3 foci from Ellis K A, 2007: Task Activation (1- and 2-Back, Balanced Drink) 
+1 foci from Ellis K A, 2007: Memory Load (2-Back - 1-Back, Balanced Drink) 
+1 foci from Meusel L C, 2013: POST > PRE, n-back (2-back - 0-back) 
+2 foci from Subramaniam K, 2014: 2-back > 0-back 
+1 foci from O'Hare E D, 2009: Control Group Mean 
+1 foci from O'Hare E D, 2009: Fetal Alcohol Syndrome Patients (FASDs) Group Mean 
+2 foci from Lie C H, 2006: Reminder of dimensional change (C) - High level baseline  (HLB) 
+2 foci from Lie C H, 2006: Instruction of dimensional change (B) - HLB 
+3 foci from Lie C H, 2006: Subject deduces sorting dimension (A) - HLB 
+3 foci from Lie C H, 2006: Conjunction analysis [(A-HLB)*(B-HLB)*(C-HLB)] 
+1 foci from Lie C H, 2006: A-C 
+1 foci from Lie C H, 2006: B-C 
+1 foci from Lie C H, 2006: Negative correlation of number of dimensions achieved with  BOLD changes in A 
+5 foci from Specht K, 2008: Working memory-Rest 
+4 foci from Specht K, 2008: WCST-Rest 
+2 foci from Specht K, 2008: WCST-Working memory 
+1 foci from Sabharwak A, 2016: Positive Correlation: Fearful > Neutral activations and  Psychotic symptoms, Psychosis group 
+
+Contributors to cluster #2
+3 foci from Dade L A, 2001: Odor Working Memory - Baseline 
+4 foci from Dade L A, 2001: Face Working Memory - Baseline 
+3 foci from Dade L A, 2001: Conjunction Analysis 
+2 foci from Sevostianov A, 2002: Mixed > (Pictures and Words) 
+2 foci from Bunge S A, 2001: Load 6 > Load 4 
+1 foci from Bunge S A, 2001: Load-related Activation and Load Susceptibility 
+6 foci from Wagner A D, 1998: Encoding Words > Textures 
+2 foci from Wagner A D, 1998: Retrieval Words > Textures 
+3 foci from Shen L, 1999: Common Activation 
+1 foci from Shen L, 1999: Visual Recognition > Spatial Recognition 
+2 foci from Clark C R, 2000: Variable Target > Fixed Target 
+1 foci from Cowell S F, 2000: Simple Mental Calculations 
+1 foci from Mencl W E, 2000: Brain/Age PLS 
+1 foci from Milham M P, 2003: Within-Region Analysis:  Interference vs. Control 
+1 foci from Milham M P, 2003: Region-Based Analysis:  Interference vs. Control 
+1 foci from Weder B, 2000: Patients < Normals 
+1 foci from Druzgal T J, 2001: Working Memory Load 
+1 foci from D'Esposito M, 1998: Verbal Task, AA 
+1 foci from D'Esposito M, 1998: Spatial Task, AA 
+1 foci from D'Esposito M, 1998: Verbal Task, AM 
+1 foci from D'Esposito M, 1998: Verbal Task, CM 
+1 foci from D'Esposito M, 1998: Verbal Task, DB 
+1 foci from D'Esposito M, 1998: Spatial Task, DB 
+1 foci from Desmond J E, 2003: Alcoholics vs. Controls, High vs. Low Load (corrected) 
+2 foci from Desmond J E, 2003: Alcoholics, High vs. Low Load (uncorrected) 
+2 foci from Desmond J E, 2003: Controls, High vs. Low Load (uncorrected) 
+3 foci from Desmond J E, 2003: Alcoholics > Controls, High vs. Low Load (uncorrected) 
+4 foci from Hautzel H, 2002: Conjunction Analysis 
+4 foci from Fiez J A, 1996: Positive Changes in Short Term Maintenance - Fixation 
+2 foci from Zurowski B, 2002: Main Effect of Working Memory 
+2 foci from Zurowski B, 2002: Main Effect of Phonological Processing 
+1 foci from Honey G D, 2002: Working Memory Task, Schizophrenic Patients 
+2 foci from Honey G D, 2002: Working Memory Task, Normals 
+1 foci from Jansma J M, 2004: Schizophrenic Patients vs. Normals 
+1 foci from Walter H, 2003: Verbal vs. Spatial, Normals 
+1 foci from Ortuno F, 2002: Interaction 
+1 foci from Ortuno F, 2002: Count with Auditory Stimulation vs. Auditory Stimulation 
+2 foci from Landau S M, 2004: Encoding:  Practice by Load Interaction 
+2 foci from Landau S M, 2004: Retrieval:  Main Effect Only 
+2 foci from Petrides M, 1993: Self-ordered - Control 
+1 foci from Petrides M, 1993: Self-ordered - Conditional 
+3 foci from Berman K F, 1995: WCST > Control 
+2 foci from Goldberg T E, 1998: WCST - CON, Activations 
+1 foci from Mostofsky S H, 2003: Primary Counting Go Effects 
+1 foci from Cairo T A, 2004: Encoding, Average Across All Loads 
+2 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+2 foci from Cairo T A, 2004: Maintenance 
+1 foci from Cairo T A, 2004: Retrieval, Average Across All Loads 
+1 foci from Manoach D S, 2005: Shape > Spatial WM Conjunction 
+4 foci from Manoach D S, 2005: Spatial WM Conjunction 
+4 foci from Manoach D S, 2005: Shape WM Conjunction 
+2 foci from Perlstein W M, 2003: N-Back Load Main Effect, Load 
+2 foci from Perlstein W M, 2003: N-Back Load Main Effect, Normals 
+1 foci from Perlstein W M, 2003: N-Back Load Main Effect, Schizophrenics 
+2 foci from Perlstein W M, 2003: AX-CPT Cue Type Main Effect, Cue Type 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type Main Effect, Normals 
+2 foci from Perlstein W M, 2003: AX-CPT Cue Type Main Effect, Schizophrenics 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Cue Type 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Normals 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Schizophrenics 
+1 foci from Johnson M R, 2006: Controls Difficult > Schizophrenics Medium, Encoding 
+1 foci from Johnson M R, 2006: Controls Difficult > Schizophrenics Medium, Retrieval 
+1 foci from Johnson M R, 2006: Controls Medium > Schizophrenics Medium, Encoding 
+1 foci from Johnson M R, 2006: Schizophrenics Medium > Controls Medium, Retrieval 
+1 foci from Johnson M R, 2006: Controls Difficult > Schizophrenics Difficult, Encoding 
+1 foci from Johnson M R, 2006: Schizophrenics Medium > Controls Medium, Retrieval,  Perfect Epochs, p<0.01 
+2 foci from Johnson M R, 2006: Schizophrenics, Activation Modulated by Load, Encoding 
+1 foci from Johnson M R, 2006: Controls, Activation Modulated by Load, Retrieval 
+1 foci from Johnson M R, 2006: Controls, Difficult 6 > Medium 6, Encoding 
+1 foci from Johnson M R, 2006: Schizophrenics, Difficult 6 > Medium 6, Encoding 
+1 foci from Johnson M R, 2006: Controls, Difficult 6 > Medium 6, Retrieval 
+2 foci from Johnson M R, 2006: Schizophrenics, Difficult 6 > Medium 6, Retrieval 
+1 foci from Volle E, 2005: MemG Delay One, 1 Square vs. Fixation 
+1 foci from Volle E, 2005: MemG Delay One, 3 Square vs. 1 Square 
+1 foci from Volle E, 2005: MemG Delay One, 5 Square vs. 3 Square 
+2 foci from Volle E, 2005: MemG Delay Two vs. MemG Delay One 
+4 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Normals 
+4 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Schizophrenia Patients 
+2 foci from Quintana J, 2003: Retention, Logical vs. Rest, Schizophrenics 
+2 foci from Quintana J, 2003: Retention, Logical vs. Rest, Normals 
+2 foci from Quintana J, 2003: Retention, Emotional vs. Rest, Schizophrenics 
+1 foci from Quintana J, 2003: Retention, Emotional vs. Rest, Normals 
+1 foci from Quintana J, 2003: Anticipation, Logical vs. Rest, Normals 
+2 foci from Quintana J, 2003: Anticipation, Emotional vs. Rest, Schizophrenics 
+1 foci from Quintana J, 2003: Anticipation, Emotional vs. Rest, Normals 
+2 foci from Fiebach C J, 2005: Long vs. Short Object 
+6 foci from Meisenzahl E M, 2006: 2-Back vs. Fixation, Normals 
+3 foci from Meisenzahl E M, 2006: 2-Back Degraded vs. Fixation, Normals 
+2 foci from Meisenzahl E M, 2006: 2-Back vs. Fixation, Normals vs. Schizophrenics,  Before Treatment 
+1 foci from Allen P P, 2006: 2-Back > 0-Back, Sham Depletion 
+1 foci from Allen P P, 2006: 2-Back > 0-Back, Acute Tryptophan Depletion 
+2 foci from Allen P P, 2006: Letter Fluency > Baseline, Sham Depletion 
+2 foci from Allen P P, 2006: Letter Fluency > Baseline, Acute Tryptophan Depletion 
+1 foci from Koshino H, 2008: Working Memory vs. Fixation, Autistic Patients 
+3 foci from Koshino H, 2008: Working Memory vs. Fixation, Controls 
+1 foci from Koshino H, 2008: Working Memory, Controls > Autistic Patients 
+2 foci from Walter H, 2007: Load 1 > Simple Reaction, Depressed Patients 
+1 foci from Walter H, 2007: Load 1 > Simple Reaction, Normals 
+1 foci from Walter H, 2007: Load 2 > Simple Reaction, Depressed Patients 
+3 foci from Walter H, 2007: Load 2 > Simple Reaction, Normals 
+1 foci from Walter H, 2007: Load 3 > Simple Reaction, Depressed Patients 
+2 foci from Walter H, 2007: Load 3 > Simple Reaction, Normals 
+2 foci from Fitzgerald P B, 2008: Regions Correlated with Reaction Time During TOL Task  in Controls 
+1 foci from Fitzgerald P B, 2008: Regions Correlated with Reaction Time During TOL Task  in MDD Patients 
+1 foci from Sheridan M A, 2007: Encoding, ADHD 
+1 foci from Sheridan M A, 2007: Delay, ADHD 
+1 foci from Sheridan M A, 2007: Retrieval, ADHD 
+1 foci from Sheridan M A, 2007: Encoding, Normals 
+1 foci from Sheridan M A, 2007: Retrieval, Normals 
+2 foci from Koch K, 2007: 2-Back vs. 0-Back, Females > Males 
+1 foci from Baumann O, 2007: Color-Coded Memory-Guided Saccades, Re-Ordering > Fixation 
+3 foci from Fehr T, 2007: Subraction, Complex > Simple 
+1 foci from Fehr T, 2007: Multiplication, Complex > Simple 
+3 foci from Fehr T, 2007: Division, Complex > Simple 
+2 foci from Jager G, 2006: Tones, SAT > Rest 
+2 foci from Jacobsen L K, 2007: Increases in Smokers During Smoking Relative to  Non-Smokers 
+1 foci from Ganguli R, 1997: Auditory Memory Related Activations 
+2 foci from Sanchez-Carrion R, 2008: 2-Back > 0-Back, Traumatic Brain Injury Patients 
+4 foci from Sanchez-Carrion R, 2008: 2-Back > 0-Back, Healthy Controls 
+2 foci from Sanchez-Carrion R, 2008: 3-Back > 0-Back, Traumatic Brain Injury Patients 
+6 foci from Sanchez-Carrion R, 2008: 3-Back > 0-Back, Healthy Controls 
+4 foci from Beneventi H, 2007: N-back Main Effect 
+3 foci from Hamilton L S, 2009: Healthy Controls > Schizophrenic Patients, Delay Match  to Sample 
+2 foci from Robinson J L, 2009: Familiarity > Fixation, Bipolar Patients + Healthy  Controls 
+2 foci from Robinson J L, 2009: Novelty > Fixation, Bipolar Patients + Healthy Controls 
+3 foci from Deckersbach T, 2008: 2-Back >  Fixation, Healthy Controls 
+2 foci from Deckersbach T, 2008: Mood Induction  >  No Induction, Healthy Controls 
+4 foci from Deckersbach T, 2008: 2-Back >  Fixation, Bipolar Disorder 
+4 foci from Deckersbach T, 2008: Mood Induction  >  No Induction, Bipolar Disorder 
+2 foci from Deckersbach T, 2008: Sadness Induction > Neutral State Induction, Bipolar  Disorder 
+1 foci from Kanayama G, 2004: Perception > Rest, Healthy Controls 
+1 foci from Kanayama G, 2004: Perception > Rest, Cannabis Users 
+2 foci from Kanayama G, 2004: Short-Delay Response > Rest, Healthy Controls 
+2 foci from Kanayama G, 2004: Short-Delay Response > Rest, Cannabis Users 
+2 foci from McNab F, 2008: No-Go > Oddball (Go/No-Go) 
+2 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+2 foci from McNab F, 2008: Stop > Go 
+2 foci from McNab F, 2008: Spatial Working Memory > Spatial Working Memory Control 
+2 foci from McNab F, 2008: Verbal Working Memory > Verbal Working Memory Control 
+3 foci from McNab F, 2008: Spatial and Verbal Working Memory Tasks 
+1 foci from McNab F, 2008: Go/No-Go and Stop Tasks w/ Oddball 
+3 foci from McNab F, 2008: Stop Task and both Working Memory Tasks 
+2 foci from Schmidt H, 2009: (1, 2, and 3-back) vs. 0-back, Males 
+2 foci from Elliott R, 1999: Guessing vs. Reporting (Suit + Color) 
+1 foci from Elliott R, 1999: Activations Associated with Difficulty in Context of  Prediction - Suit vs. Color 
+2 foci from Forn C, 2007: 2-Back > 0-Back, Healthy Controls 
+2 foci from Forn C, 2007: 2-Back > 0-Back, Relapsing-Remitting Multiple Sclerosis  Patients 
+2 foci from Chee M W L, 2004: Rested Wakefulness, PLUS > LTR 
+2 foci from Chee M W L, 2004: Sleep Deprived, PLUS > LTR 
+1 foci from Chee M W L, 2004: Sleep Deprived, PLUS > Rested Wakefulness, PLUS  (Deactivation) 
+1 foci from Choo W C, 2005: Rested Wakefulness, 2-Back > 1-Back 
+1 foci from Choo W C, 2005: Load by State Interaction 
+2 foci from Kasahara M, 2011: Linear Increase (Correct Responses Across Working Memory  Load vs. Rest), TBI Patients 
+2 foci from McAllister T W, 1999: Main Effect of Working Memory Load in All Subjects 
+1 foci from McAllister T W, 1999: 1-Back > 0-Back, Healthy Controls 
+2 foci from McAllister T W, 1999: 1-Back > 0-Back, Mild Traumatic Brain Injury Patients 
+1 foci from McAllister T W, 1999: 2-Back > 1-Back, Mild Traumatic Brain Injury Patients 
+5 foci from Medaglia J D, 2011: Main Effect of Practice 
+4 foci from Medaglia J D, 2011: Main Effect of Load 
+3 foci from Medaglia J D, 2011: TBI Patients > Healthy Controls, 1-Back 
+2 foci from Perlstein W M, 2004: Load (Monotonically Increasing) 
+1 foci from Perlstein W M, 2004: Group X Load 
+2 foci from Perlstein W M, 2004: Regions Showing Monotonically Increasing Activity in  Healthy Controls 
+1 foci from Chen S H A, 2005: Activations Common to Working Memory and Motoric  Rehearsal, High Load > Low Load 
+1 foci from Chen S H A, 2005: Activations Found in Working Memory but not Motoric  Rehearsal, High Load > Low Load 
+1 foci from Fernandez-Corcuera P, 2013: 2-Back vs. Baseline, Healthy Controls 
+1 foci from Fernandez-Corcuera P, 2013: 2-Back vs. Baseline, Depressive Bipolar  Patients 
+1 foci from Fernandez-Corcuera P, 2013: 2-Back vs. Baseline, Healthy Controls >  Depressive Bipolar Patients 
+2 foci from Walter H, 2007: Load Dependent Activations, Depression > Schizophrenia 
+1 foci from Oei N Y L, 2012: Emotional > Neutral Distractors 
+1 foci from Ring H, 1999: Activations In Both Healthy Controls and Autism Group,  Embedded Figures Task (EFT) - Fixation 
+4 foci from Marvel C L, 2012: Manipulation (2 target -1 target) vs Storage (2 target -1  target) during delay 
+3 foci from Christodoulou C, 2001: mPASAT > control, Healthy controls 
+1 foci from Christodoulou C, 2001: mPASAT > control, TBI patients 
+13 foci from Newsome M R, 2007: 1-Back minus 0-Back, Orthopedic Injury Patients, Cluster  A 
+10 foci from Newsome M R, 2007: 1-Back minus 0-Back, Orthopedic Injury Patients >  Traumatic Brain Injury Patients, Cluster A 
+1 foci from Newsome M R, 2007: 2-Back minus 0-Back, Traumatic Brain Injury Patients,  Cluster A 
+16 foci from Newsome M R, 2007: 2-Back minus 0-Back, Orthopedic Injury Patients, Cluster  A 
+2 foci from Clapp W C, 2010: IS interruptor > DS distractor 
+2 foci from Gazzaley A, 2014: Remember Scenes and Remember Faces > Passive View,  Univariate activity contrast 
+1 foci from Pardini J E, 2010: Positive Associations between Concussion Symptom  Severity and 2-Back vs. 0-Back Contrast 
+1 foci from Sailer U, 2008: Overall, activations early > late 
+1 foci from Sanchez-Carrion R, 2008: Traumatic Brain Injury Patients: fMRI-1 < fMRI-2  (2-Back > 0-Back) 
+1 foci from Sanchez-Carrion R, 2008: Traumatic Brain Injury Patients: fMRI-1 < fMRI-2  (3-Back > 0-Back) 
+2 foci from Shaw M E, 2009: Control, CVA analysis of variable and baseline 
+5 foci from Shaw M E, 2009: PTSD, CVA analysis of variable and baseline 
+1 foci from Li X, 2003: Tone > syllable 
+1 foci from Bahlmann J, 2007: All Conditions vs. Baseline 
+1 foci from Bahlmann J, 2007: Noncanonical vs. Canonical 
+1 foci from Bahlmann J, 2007: Noncanonical Unambiguous vs. Canonical Unambiguous 
+1 foci from Bertolino A, 2008: 2-back, Main effect of diagnosis (controls > patients) 
+3 foci from Bertolino A, 2009: Main effect of DAT on brain activity during working  memory 
+2 foci from Bertolino A, 2009: Interaction between DAT and DRD2 on brain activity  during working memory, corrected 
+2 foci from Bertolino A, 2009: Interaction between DAT and DRD2 on brain activity  during working memory, uncorrected 
+1 foci from Bertolino A, 2009: Interaction between DAT and DRD2 during encoding,  uncorrected 
+7 foci from Crossley N A, 2009: Working Memory, All Groups 
+1 foci from Ellis K A, 2007: Task Activation (1- and 2-Back, Balanced Drink) 
+2 foci from Ellis K A, 2007: Memory Load (2-Back - 1-Back, Balanced Drink) 
+1 foci from Meusel L C, 2013: POST > PRE, n-back (2-back - 0-back) 
+2 foci from Subramaniam K, 2014: 2-back > 0-back 
+1 foci from Lie C H, 2006: Reminder of dimensional change (C) - High level baseline  (HLB) 
+2 foci from Lie C H, 2006: Instruction of dimensional change (B) - HLB 
+2 foci from Lie C H, 2006: Conjunction analysis [(A-HLB)*(B-HLB)*(C-HLB)] 
+1 foci from Lie C H, 2006: A-C 
+2 foci from Specht K, 2008: Working memory-Rest 
+2 foci from Specht K, 2008: WCST-Rest 
+3 foci from Specht K, 2008: WCST-Working memory 
+2 foci from Sabharwak A, 2016: Positive Correlation: Fearful > Neutral activations and  Psychotic symptoms, Psychosis group 
+1 foci from Sabharwak A, 2016: Negative Correlation: Fearful > Neutral activations and  Social functioning, Psychosis group 
+
+Contributors to cluster #3
+2 foci from Dade L A, 2001: Odor Working Memory - Baseline 
+2 foci from Dade L A, 2001: Face Working Memory - Baseline 
+2 foci from Dade L A, 2001: Conjunction Analysis 
+1 foci from Bunge S A, 2001: Load 6 > Load 4 
+1 foci from Shen L, 1999: Spatial Recognition > Visual Recognition 
+1 foci from Clark C R, 2000: Variable Target > Fixed Target 
+1 foci from Mencl W E, 2000: Brain/Behavior PLS 
+1 foci from Weder B, 2000: Patients < Normals 
+1 foci from Druzgal T J, 2001: Working Memory Load 
+2 foci from Desmond J E, 2003: Alcoholics > Controls, High vs. Low Load (uncorrected) 
+2 foci from Hautzel H, 2002: Conjunction Analysis 
+1 foci from Owen A M, 1999: Spatial Span - Visuomotor Control 
+1 foci from Owen A M, 1999: Spatial Manipulation - Visuomotor Control 
+2 foci from Zurowski B, 2002: Main Effect of Working Memory 
+1 foci from Honey G D, 2002: Working Memory Task, Schizophrenic Patients 
+1 foci from Ortuno F, 2002: Main Effect of Counting 
+1 foci from Ortuno F, 2002: Interaction 
+1 foci from Ortuno F, 2002: Count Without Auditory Stimulation vs. Rest 
+2 foci from Ortuno F, 2002: Count Without Auditory Stimulation vs. Count with Auditory  Stimulation 
+1 foci from Landau S M, 2004: Retrieval:  Practice by Load Interaction 
+1 foci from Landau S M, 2004: Encoding:  Practice Effect Only 
+1 foci from Petrides M, 1993: Self-ordered - Conditional 
+3 foci from Berman K F, 1995: WCST > Control 
+1 foci from Goldberg T E, 1998: WCST - CON, Activations 
+2 foci from Cairo T A, 2004: Encoding, Average Across All Loads 
+2 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+1 foci from Cairo T A, 2004: Retrieval, Average Across All Loads 
+1 foci from Manoach D S, 2005: Spatial WM Conjunction 
+1 foci from Manoach D S, 2005: Spatial WM, Controls > Schizophrenics 
+1 foci from Manoach D S, 2005: Shape WM Conjunction 
+1 foci from Perlstein W M, 2003: N-Back Load Main Effect, Load 
+1 foci from Perlstein W M, 2003: N-Back Load Main Effect, Normals 
+1 foci from Perlstein W M, 2003: N-Back Load Main Effect, Schizophrenics 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Cue Type 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Normals 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Schizophrenics 
+1 foci from Perlstein W M, 2003: AX-CPT Group x Cue Type x Scan Interaction, Cue Type 
+1 foci from Perlstein W M, 2003: AX-CPT Group x Cue Type x Scan Interaction, Group  Interaction 
+1 foci from Perlstein W M, 2003: AX-CPT Group x Cue Type x Scan Interaction, Normals 
+1 foci from Johnson M R, 2006: Schizophrenics Medium > Controls Medium, Retrieval,  Perfect Epochs, p<0.01 
+1 foci from Johnson M R, 2006: Schizophrenics, Activation Modulated by Load, Encoding 
+1 foci from Johnson M R, 2006: Schizophrenics, Difficult 6 > Medium 6, Retrieval 
+1 foci from Volle E, 2005: MemG Delay One, 5 Square vs. 3 Square 
+1 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Normals 
+1 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Schizophrenia Patients 
+1 foci from Quintana J, 2003: Retention, Emotional vs. Rest, Schizophrenics 
+1 foci from Quintana J, 2003: Anticipation, Logical vs. Rest, Schizophrenics 
+2 foci from Quintana J, 2003: Anticipation, Emotional vs. Rest, Schizophrenics 
+1 foci from Quintana J, 2003: Anticipation, Emotional vs. Rest, Normals 
+2 foci from Meisenzahl E M, 2006: 2-Back vs. Fixation, Normals 
+2 foci from Meisenzahl E M, 2006: 2-Back Degraded vs. Fixation, Normals 
+1 foci from Meisenzahl E M, 2006: 2-Back Degraded vs. Fixation, Schizophrenics, After  Treatment vs. Before Treatment 
+1 foci from Allen P P, 2006: 2-Back > 0-Back, Sham Depletion 
+1 foci from Koshino H, 2008: Working Memory vs. Fixation, Autistic Patients 
+1 foci from Koshino H, 2008: Working Memory vs. Fixation, Controls 
+1 foci from Koshino H, 2008: Working Memory, Autistic Patients > Controls 
+1 foci from Walter H, 2007: Load 1 > Simple Reaction, Normals 
+1 foci from Walter H, 2007: Load 2 > Simple Reaction, Depressed Patients 
+1 foci from Walter H, 2007: Load 2 > Simple Reaction, Normals 
+1 foci from Walter H, 2007: Load 3 > Simple Reaction, Depressed Patients 
+1 foci from Walter H, 2007: Load 3 > Simple Reaction, Normals 
+1 foci from Fitzgerald P B, 2008: MDD Patients > Controls, TOL Planning - Rest 
+1 foci from Sheridan M A, 2007: Encoding, ADHD 
+1 foci from Sheridan M A, 2007: Encoding, Normals 
+3 foci from Fehr T, 2007: Subraction, Complex > Simple 
+1 foci from Fehr T, 2007: Division, Complex > Simple 
+1 foci from Fehr T, 2007: Conjunction (All Conditions) 
+1 foci from Jager G, 2006: Novel Set > Contrasl Task, STERN 
+1 foci from Jacobsen L K, 2007: Increases in Smokers During Smoking Relative to  Non-Smokers 
+2 foci from Sanchez-Carrion R, 2008: 2-Back > 0-Back, Traumatic Brain Injury Patients 
+3 foci from Sanchez-Carrion R, 2008: 2-Back > 0-Back, Healthy Controls 
+3 foci from Sanchez-Carrion R, 2008: 3-Back > 0-Back, Traumatic Brain Injury Patients 
+1 foci from Sanchez-Carrion R, 2008: 3-Back > 0-Back, Healthy Controls 
+2 foci from Robinson J L, 2009: Novelty > Fixation, Bipolar Patients + Healthy Controls 
+1 foci from Robinson J L, 2009: Healthy Controls > Bipolar Patients, Familiarity 
+2 foci from Robinson J L, 2009: Healthy Controls > Bipolar Patients, Novelty 
+2 foci from McNab F, 2008: Flanker Task, Incongruent > Congruent 
+1 foci from McNab F, 2008: No-Go > Oddball (Go/No-Go) 
+3 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+2 foci from McNab F, 2008: Spatial Working Memory > Spatial Working Memory Control 
+3 foci from McNab F, 2008: Verbal Working Memory > Verbal Working Memory Control 
+3 foci from McNab F, 2008: Spatial and Verbal Working Memory Tasks 
+2 foci from McNab F, 2008: Flanker Task and both Working Memory Tasks 
+3 foci from McNab F, 2008: Stop Task and both Working Memory Tasks 
+1 foci from Schmidt H, 2009: (1, 2, and 3-back) vs. 0-back, Males 
+1 foci from Elliott R, 1999: Guessing vs. Reporting (Suit + Color) 
+1 foci from Forn C, 2007: 2-Back > 0-Back, Healthy Controls 
+1 foci from Forn C, 2007: 2-Back > 0-Back, Relapsing-Remitting Multiple Sclerosis  Patients 
+1 foci from Chee M W L, 2004: Rested Wakefulness, PLUS > LTR 
+1 foci from Chee M W L, 2004: Sleep Deprived, PLUS < Rested Wakefulness, PLUS 
+1 foci from Choo W C, 2005: Rested Wakefulness, 2-Back > 1-Back 
+2 foci from Kasahara M, 2011: Overall (Correct Responses Across Working Memory Load vs.  Rest), TBI Patients 
+2 foci from Kasahara M, 2011: Linear Increase (Correct Responses Across Working Memory  Load vs. Rest), TBI Patients 
+2 foci from Kasahara M, 2011: Healthy Controls > TBI Patients 
+2 foci from McAllister T W, 1999: Main Effect of Working Memory Load in All Subjects 
+1 foci from McAllister T W, 1999: 1-Back > 0-Back, Healthy Controls 
+1 foci from McAllister T W, 1999: 1-Back > 0-Back, Mild Traumatic Brain Injury Patients 
+1 foci from Medaglia J D, 2011: Main Effect of Practice 
+1 foci from Medaglia J D, 2011: TBI Patients > Healthy Controls, 1-Back 
+1 foci from Perlstein W M, 2004: Regions Showing Monotonically Increasing Activity in  TBI Patients 
+1 foci from Chen S H A, 2005: Activations Found in Working Memory but not Motoric  Rehearsal, High Load > Low Load 
+1 foci from Fernandez-Corcuera P, 2013: 2-Back vs. Baseline, Healthy Controls 
+1 foci from Fernandez-Corcuera P, 2013: 2-Back vs. Baseline, Depressive Bipolar  Patients 
+2 foci from Walter H, 2007: Load Dependent Activations, Controls > Schizophrenia 
+1 foci from Oei N Y L, 2012: Neutral > Emotional Distractors 
+1 foci from Ring H, 1999: Activations In Both Healthy Controls and Autism Group,  Embedded Figures Task (EFT) - Fixation 
+1 foci from Ring H, 1999: Healthy Controls > Autism Group, Embedded Figures Task (EFT)  - Fixation 
+2 foci from Ring H, 1999: Healthy Controls > Autism Group, EFT Activations With Global  Mean FPQ As a Covariate 
+3 foci from Marvel C L, 2012: Manipulation (2 target -1 target) vs Storage (2 target -1  target) during delay 
+1 foci from Shin Y W, 2006: Neutral Working Memory Task, OCD Patients 
+1 foci from Shin Y W, 2006: Provoked State Working Memory Task, OCD Patients 
+1 foci from Christodoulou C, 2001: mPASAT > control, Healthy controls 
+8 foci from Newsome M R, 2007: 2-Back minus 0-Back, Traumatic Brain Injury patients,  Cluster B 
+8 foci from Newsome M R, 2007: 2-Back minus 0-Back, Orthopedic Injury patients, Cluster  B 
+2 foci from Clapp W C, 2010: IS interruptor > DS distractor 
+1 foci from Gazzaley A, 2014: Remember Scenes and Remember Faces > Passive View,  Univariate activity contrast 
+1 foci from Shaw M E, 2009: Control, CVA analysis of variable and baseline 
+1 foci from Shaw M E, 2009: PTSD, CVA analysis of variable and baseline 
+1 foci from Bertolino A, 2008: 2-back, Main effect of diagnosis (controls > patients) 
+1 foci from Bertolino A, 2009: Main effect of DAT on brain activity during encoding 
+3 foci from Crossley N A, 2009: Working Memory, All Groups 
+1 foci from Ellis K A, 2007: Task Activation (1- and 2-Back, Balanced Drink) 
+2 foci from Meusel L C, 2013: POST > PRE, n-back (2-back - 0-back) 
+1 foci from Lie C H, 2006: Reminder of dimensional change (C) - High level baseline  (HLB) 
+1 foci from Lie C H, 2006: Instruction of dimensional change (B) - HLB 
+1 foci from Lie C H, 2006: Subject deduces sorting dimension (A) - HLB 
+1 foci from Lie C H, 2006: Conjunction analysis [(A-HLB)*(B-HLB)*(C-HLB)] 
+1 foci from Specht K, 2008: Working memory-Rest 
+1 foci from Specht K, 2008: WCST-Rest 
+1 foci from Specht K, 2008: WCST-Working memory 
+
+Contributors to cluster #4
+2 foci from Dade L A, 2001: Odor Working Memory - Baseline 
+1 foci from Dade L A, 2001: Face Working Memory - Baseline 
+2 foci from Dade L A, 2001: Conjunction Analysis 
+1 foci from Bunge S A, 2001: Load 6 > Load 4 
+1 foci from Shen L, 1999: Common Activation 
+2 foci from Shen L, 1999: Spatial Recognition > Visual Recognition 
+1 foci from Clark C R, 2000: Variable Target > Fixed Target 
+1 foci from Weder B, 2000: Patients < Normals 
+1 foci from Desmond J E, 2003: Alcoholics, High vs. Low Load (uncorrected) 
+1 foci from Desmond J E, 2003: Alcoholics > Controls, High vs. Low Load (uncorrected) 
+1 foci from Hautzel H, 2002: Conjunction Analysis 
+1 foci from Hautzel H, 2002: Spatial WM vs. Shape WM 
+1 foci from Fiez J A, 1996: Positive Changes in Short Term Maintenance - Fixation 
+1 foci from Zurowski B, 2002: Main Effect of Working Memory 
+1 foci from Honey G D, 2002: Working Memory Task, Normals 
+1 foci from Jansma J M, 2004: Schizophrenic Patients vs. Normals 
+1 foci from Ortuno F, 2002: Main Effect of Counting 
+1 foci from Ortuno F, 2002: Count Without Auditory Stimulation vs. Rest 
+2 foci from Ortuno F, 2002: Count Without Auditory Stimulation vs. Count with Auditory  Stimulation 
+2 foci from Petrides M, 1993: Self-ordered - Control 
+2 foci from Petrides M, 1993: Conditional - Control 
+4 foci from Berman K F, 1995: WCST > Control 
+1 foci from Goldberg T E, 1998: WCST - CON, Activations 
+2 foci from Cairo T A, 2004: Encoding, Average Across All Loads 
+2 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+1 foci from Cairo T A, 2004: Maintenance 
+2 foci from Manoach D S, 2005: Spatial WM Conjunction 
+2 foci from Manoach D S, 2005: Shape WM Conjunction 
+1 foci from Perlstein W M, 2003: N-Back Load Main Effect, Load 
+1 foci from Perlstein W M, 2003: N-Back Load Main Effect, Normals 
+1 foci from Perlstein W M, 2003: N-Back Load Main Effect, Schizophrenics 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Cue Type 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Normals 
+1 foci from Perlstein W M, 2003: AX-CPT Cue Type x Scan Interaction, Schizophrenics 
+1 foci from Johnson M R, 2006: Controls Difficult > Schizophrenics Medium, Encoding 
+1 foci from Johnson M R, 2006: Controls, Activation Modulated by Load, Encoding 
+1 foci from Johnson M R, 2006: Schizophrenics, Activation Modulated by Load, Encoding 
+1 foci from Johnson M R, 2006: Controls, Activation Modulated by Load, Retrieval 
+1 foci from Johnson M R, 2006: Controls, Difficult 6 > Medium 6, Encoding 
+1 foci from Johnson M R, 2006: Schizophrenics, Difficult 6 > Medium 6, Encoding 
+1 foci from Johnson M R, 2006: Schizophrenics, Difficult 6 > Medium 6, Retrieval 
+1 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Normals 
+1 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Schizophrenia Patients 
+1 foci from Quintana J, 2003: Retention, Logical vs. Rest, Schizophrenics 
+1 foci from Quintana J, 2003: Retention, Emotional vs. Rest, Normals 
+1 foci from Quintana J, 2003: Anticipation, Emotional vs. Rest, Schizophrenics 
+2 foci from Quintana J, 2003: Anticipation, Emotional vs. Rest, Normals 
+1 foci from Fiebach C J, 2005: Long vs. Short Subject 
+2 foci from Meisenzahl E M, 2006: 2-Back vs. Fixation, Normals 
+2 foci from Meisenzahl E M, 2006: 2-Back Degraded vs. Fixation, Normals 
+1 foci from Schneider F, 2007: 2-Back vs. 0-Back, Normals > Schizophrenics 
+1 foci from Allen P P, 2006: 2-Back > 0-Back, Sham Depletion 
+1 foci from Koshino H, 2008: Working Memory vs. Fixation, Autistic Patients 
+1 foci from Koshino H, 2008: Working Memory vs. Fixation, Controls 
+2 foci from Walter H, 2007: Load 1 > Simple Reaction, Depressed Patients 
+1 foci from Walter H, 2007: Load 1 > Simple Reaction, Normals 
+1 foci from Walter H, 2007: Load 2 > Simple Reaction, Depressed Patients 
+1 foci from Walter H, 2007: Load 3 > Simple Reaction, Depressed Patients 
+1 foci from Walter H, 2007: Load 3 > Simple Reaction, Normals 
+2 foci from Fitzgerald P B, 2008: MDD Patients > Controls, 2-Back - 0-Back 
+1 foci from Sheridan M A, 2007: Encoding, ADHD 
+1 foci from Sheridan M A, 2007: Encoding, Normals 
+1 foci from Koch K, 2007: [2-Back Negative - 0-Back Negative] vs. [2-Back Neutral -  0-Back Neutral], Males 
+2 foci from Koch K, 2007: [2-Back Negative - 0-Back Negative] vs. [2-Back Neutral -  0-Back Neutral], Males > Females 
+2 foci from Fehr T, 2007: Addition, Complex > Simple 
+3 foci from Fehr T, 2007: Subraction, Complex > Simple 
+1 foci from Fehr T, 2007: Division, Complex > Simple 
+1 foci from Jager G, 2006: Novel Set > Contrasl Task, STERN 
+2 foci from Sanchez-Carrion R, 2008: 2-Back > 0-Back, Traumatic Brain Injury Patients 
+3 foci from Sanchez-Carrion R, 2008: 2-Back > 0-Back, Healthy Controls 
+2 foci from Sanchez-Carrion R, 2008: 3-Back > 0-Back, Traumatic Brain Injury Patients 
+2 foci from Sanchez-Carrion R, 2008: 3-Back > 0-Back, Healthy Controls 
+1 foci from Beneventi H, 2007: N-back Main Effect 
+1 foci from Lim H K, 2008: 1-Back > Rest, Alzheimer's Disease 
+1 foci from Lim H K, 2008: Alzheimer's Disease  > Elderly Normals 
+2 foci from McNab F, 2008: No-Go > Oddball (Go/No-Go) 
+3 foci from McNab F, 2008: Spatial Working Memory > Spatial Working Memory Control 
+3 foci from McNab F, 2008: Verbal Working Memory > Verbal Working Memory Control 
+3 foci from McNab F, 2008: Spatial and Verbal Working Memory Tasks 
+1 foci from Schmidt H, 2009: (1, 2, and 3-back) vs. 0-back, Males 
+1 foci from Elliott R, 1999: Guessing vs. Reporting (Suit + Color) 
+2 foci from Forn C, 2007: 2-Back > 0-Back, Healthy Controls 
+1 foci from Chee M W L, 2004: Rested Wakefulness, PLUS > LTR 
+1 foci from Chee M W L, 2004: Sleep Deprived, PLUS > LTR 
+1 foci from Choo W C, 2005: Rested Wakefulness, 2-Back > 1-Back 
+1 foci from Kasahara M, 2011: Overall (Correct Responses Across Working Memory Load vs.  Rest), Healthy Controls 
+1 foci from Kasahara M, 2011: Overall (Correct Responses Across Working Memory Load vs.  Rest), TBI Patients 
+1 foci from Kasahara M, 2011: Linear Increase (Correct Responses Across Working Memory  Load vs. Rest), Healthy Controls 
+1 foci from Kasahara M, 2011: Linear Increase (Correct Responses Across Working Memory  Load vs. Rest), TBI Patients 
+2 foci from Kasahara M, 2011: Healthy Controls > TBI Patients 
+1 foci from McAllister T W, 1999: Main Effect of Working Memory Load in All Subjects 
+1 foci from McAllister T W, 1999: 1-Back > 0-Back, Healthy Controls 
+1 foci from McAllister T W, 1999: 1-Back > 0-Back, Mild Traumatic Brain Injury Patients 
+2 foci from Medaglia J D, 2011: Main Effect of Practice 
+2 foci from Medaglia J D, 2011: TBI Patients > Healthy Controls, 1-Back 
+1 foci from Perlstein W M, 2004: TBI Patients > Healthy Controls 
+1 foci from Chen S H A, 2005: Activations Common to Working Memory and Motoric  Rehearsal, High Load > Low Load 
+1 foci from Chen S H A, 2005: Activations Found in Working Memory but not Motoric  Rehearsal, High Load > Low Load 
+1 foci from Fernandez-Corcuera P, 2013: 2-Back vs. Baseline, Depressive Bipolar  Patients 
+1 foci from Mannie Z N, 2010: Quadratic Load Response Activity, FH Participants >  Healthy Controls 
+1 foci from Oei N Y L, 2012: Neutral > Emotional Distractors 
+2 foci from Ring H, 1999: Activations In Both Healthy Controls and Autism Group,  Embedded Figures Task (EFT) - Fixation 
+2 foci from Ring H, 1999: Healthy Controls > Autism Group, Embedded Figures Task (EFT)  - Fixation 
+1 foci from Ring H, 1999: Healthy Controls > Autism Group, EFT Activations With Global  Mean FPQ As a Covariate 
+3 foci from Marvel C L, 2012: Manipulation (2 target -1 target) vs Storage (2 target -1  target) during delay 
+1 foci from Christodoulou C, 2001: mPASAT > control, Healthy controls 
+8 foci from Newsome M R, 2007: 2-Back minus 0-Back, Traumatic Brain Injury patients,  Cluster B 
+11 foci from Newsome M R, 2007: 2-Back minus 0-Back, Orthopedic Injury patients, Cluster  B 
+1 foci from Pardini J E, 2010: Positive Associations between Concussion Symptom  Severity and 2-Back vs. 0-Back Contrast 
+1 foci from Sailer U, 2008: Overall, activations early > late 
+1 foci from Shaw M E, 2009: Control, CVA analysis of variable and baseline 
+1 foci from Li X, 2003: Tone > syllable 
+1 foci from Craig M C, 2015: Enocding Correct vs. Baseline, Control vs. Treatment, Time  2 vs. Time 1 
+2 foci from Crossley N A, 2009: Working Memory, All Groups 
+1 foci from Ellis K A, 2007: Task Activation (1- and 2-Back, Balanced Drink) 
+1 foci from Ellis K A, 2007: Memory Load (2-Back - 1-Back, Balanced Drink) 
+1 foci from Lie C H, 2006: Reminder of dimensional change (C) - High level baseline  (HLB) 
+1 foci from Lie C H, 2006: Subject deduces sorting dimension (A) - HLB 
+1 foci from Lie C H, 2006: Conjunction analysis [(A-HLB)*(B-HLB)*(C-HLB)] 
+1 foci from Lie C H, 2006: Negative correlation of number of dimensions achieved with  BOLD changes in A 
+1 foci from Specht K, 2008: Working memory-Rest 
+1 foci from Specht K, 2008: WCST-Rest 
+2 foci from Specht K, 2008: WCST-Working memory 
+
+Contributors to cluster #5
+1 foci from Bunge S A, 2001: Load-related Activation and Load Susceptibility 
+1 foci from Cowell S F, 2000: Simple Mental Calculations 
+1 foci from Mostofsky S H, 2003: Primary Counting Go Effects 
+2 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+1 foci from Johnson M R, 2006: Controls Difficult > Schizophrenics Medium, Encoding 
+1 foci from Johnson M R, 2006: Controls Difficult > Schizophrenics Medium, Retrieval 
+1 foci from Johnson M R, 2006: Controls Difficult > Schizophrenics Difficult, Retrieval 
+1 foci from Johnson M R, 2006: Controls, Activation Modulated by Load, Encoding 
+1 foci from Johnson M R, 2006: Controls, Activation Modulated by Load, Retrieval 
+1 foci from Johnson M R, 2006: Controls, Difficult 6 > Medium 6, Encoding 
+1 foci from Johnson M R, 2006: Controls, Difficult 6 > Medium 6, Retrieval 
+1 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Schizophrenia Patients 
+1 foci from Fiebach C J, 2005: Long vs. Short Object 
+2 foci from Meisenzahl E M, 2006: 2-Back vs. Fixation, Normals 
+1 foci from Meisenzahl E M, 2006: 2-Back Degraded vs. Fixation, Normals 
+1 foci from Schneider F, 2007: 0-Back vs. Fixation, Normals > Schizophrenics 
+1 foci from Walter H, 2007: Load 2 > Simple Reaction, Depressed Patients 
+1 foci from Walter H, 2007: Load 2 > Simple Reaction, Normals 
+1 foci from Fitzgerald P B, 2008: MDD Patients > Controls, 2-Back - 0-Back 
+1 foci from Sheridan M A, 2007: Encoding, ADHD 
+1 foci from Sheridan M A, 2007: Retrieval, ADHD 
+1 foci from Sheridan M A, 2007: Retrieval, Normals 
+2 foci from Fehr T, 2007: Multiplication, Complex > Simple 
+1 foci from Nakao T, 2009: OCD Patients with Cleanliness/Washing Rituals > Patients  with Obsessions/Checking Rituals, N-back 
+2 foci from Robinson J L, 2009: Novelty > Fixation, Bipolar Patients + Healthy Controls 
+1 foci from Robinson J L, 2009: Healthy Controls > Bipolar Patients, Familiarity 
+1 foci from Deckersbach T, 2008: 2-Back >  Fixation, Healthy Controls 
+1 foci from Deckersbach T, 2008: Mood Induction  >  No Induction, Healthy Controls 
+1 foci from Kanayama G, 2004: Perception > Rest, Cannabis Users 
+1 foci from Kanayama G, 2004: Short-Delay Response > Rest, Healthy Controls 
+1 foci from Kanayama G, 2004: Short-Delay Response > Rest, Cannabis Users 
+1 foci from McNab F, 2008: Stop > Oddball (Stop Task) 
+1 foci from McNab F, 2008: Stop > Go 
+1 foci from Elliott R, 1999: Guessing vs. Reporting (Suit + Color) 
+1 foci from Chee M W L, 2004: Rested Wakefulness, PLUS > LTR 
+1 foci from Chee M W L, 2004: Sleep Deprived, PLUS > LTR 
+1 foci from Choo W C, 2005: State Effect: Sleep Deprivation Related Increase 
+2 foci from Medaglia J D, 2011: Main Effect of Load 
+1 foci from Marvel C L, 2012: Manipulation (2 target -1 target) vs Storage (2 target -1  target) during delay 
+1 foci from Christodoulou C, 2001: mPASAT > control, Healthy controls 
+1 foci from Christodoulou C, 2001: mPASAT > control, Healthy controls - TBI 
+4 foci from Newsome M R, 2007: 2-Back minus 0-Back, Orthopedic Injury patients, Cluster  C 
+1 foci from Clapp W C, 2010: IS interruptor > DS distractor 
+1 foci from Sailer U, 2008: Control > PTSD, gain, late phase 
+1 foci from Bertolino A, 2008: 2-back, Main effect of diagnosis (controls > patients) 
+2 foci from Bertolino A, 2009: Interaction between DAT and DRD2 on brain activity  during working memory, corrected 
+1 foci from Bertolino A, 2009: Main effect of DAT on brain activity during encoding 
+1 foci from Specht K, 2008: WCST-Rest 
+1 foci from Specht K, 2008: WCST-Working memory 
+1 foci from Sabharwak A, 2016: Positive Correlation: Fearful > Neutral activations and  Psychotic symptoms, Psychosis group 
+
+Contributors to cluster #6
+1 foci from Shen L, 1999: Visual Recognition > Spatial Recognition 
+1 foci from Milham M P, 2003: Within-Region Analysis:  Interference vs. Control 
+1 foci from Druzgal T J, 2001: Working Memory Load 
+1 foci from Desmond J E, 2003: Alcoholics, High vs. Low Load (uncorrected) 
+2 foci from Honey G D, 2002: Working Memory Task, Normals 
+1 foci from Ortuno F, 2002: Main Effect of Counting 
+1 foci from Landau S M, 2004: Encoding:  Practice by Load Interaction 
+1 foci from Landau S M, 2004: Retrieval:  Main Effect Only 
+1 foci from Berman K F, 1995: WCST > Control 
+1 foci from Mostofsky S H, 2003: Primary Go Effects 
+1 foci from Mostofsky S H, 2003: Primary No-Go Effects 
+1 foci from Cairo T A, 2004: Encoding, Average Across All Loads 
+2 foci from Cairo T A, 2004: Encoding, Linear Regression with Load 
+1 foci from Manoach D S, 2005: Shape > Spatial WM Conjunction 
+1 foci from Manoach D S, 2000: 5 Targets WM vs. Arrows, Schizophrenia Patients 
+1 foci from Walter H, 2007: Load 2 > Simple Reaction, Depressed Patients 
+1 foci from Walter H, 2007: Load 3 > Simple Reaction, Depressed Patients 
+1 foci from Beneventi H, 2007: N-back Main Effect 
+1 foci from Robinson J L, 2009: Healthy Controls > Bipolar Patients, Familiarity 
+1 foci from Medaglia J D, 2011: Main Effect of Load 
+1 foci from Medaglia J D, 2011: TBI Patients > Healthy Controls, 1-Back 
+1 foci from Soto D, 2012: Cue-validity effects: Valid > Neutral > Invalid - Conjuction  Visual and Verbal 
+1 foci from Newsome M R, 2007: 2-Back minus 0-Back, Traumatic Brain Injury patients,  Cluster B 
+1 foci from Gazzaley A, 2014: Remember Scenes and Remember Faces > Passive View,  Univariate activity contrast 
+2 foci from Craig M C, 2015: Recognition Correct, Control vs. Treatment, Time 2 vs.  Time 1 
+1 foci from Lie C H, 2006: Subject deduces sorting dimension (A) - HLB 
+1 foci from Lie C H, 2006: Negative correlation of number of dimensions achieved with  BOLD changes in A 
+1 foci from Moon C M, 2015: HC > GAD, Anxiety distractors 
