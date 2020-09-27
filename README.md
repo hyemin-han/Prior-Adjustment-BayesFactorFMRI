@@ -1,7 +1,8 @@
 # Prior-Adjustment-BayesFactorFMRI
 Adjusting prior distributions for Bayesian second-level fMRI analysis
 
-For further details about required software and dependencies, refer to.
+For further details about required software and dependencies, refer to and cite:<br />
+Han, H. (in press). BayesFactorFMRI: Implementing Bayesian second-level fMRI analysis with multiple comparison correction and Bayesian meta-analysis of fMRI images with multiprocessing. *Journal of Open Research Software*. (currently available at bioRxiv https://bit.ly/34t7555)
 
 # Simulation data test
 Source code and data files for the simulated data test are available in /Simulation. The test can be performed with "run_cycle.py". Required parameters can be entered on command line. Here are guidelines about how to enter the parameters:<br />
