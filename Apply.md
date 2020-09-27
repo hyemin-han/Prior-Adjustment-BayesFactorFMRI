@@ -1,6 +1,7 @@
 # How to apply the prior adjustment for your own planned analysis
 In order to use the method for your own analysis, you need to create several files for analysis prep and modify a py file in **/Working_memory_fMRI/BayesFactorFMRI**.
 
+0. Nii files to be analyzed **should be contrast images created from first-level (individual-level) analysis**. The current method is not for first-level analysis.
 1. Create "mask.nii" consisting of 0 (not to be analyzed) vs. 1 (to be analyzed) that indicate which voxels shall be analyzed. mask.nii can be created with other fMRI analysis tools, such as SPM 12. In the case of SPM 12, mask.nii can be created by performing simple one-sample *t*-test at the second level (group level).
 2. Create "list.csv" that contains the filenames of nii files that you plan to analyze. This file must have one column, "Filename". "Filename" should be placed in the first row in the first column. Then, the nii filenames should be placed in the second row and thereafter in the first column. Refer to "list.csv" provided in the working memory fMRI test.
 3. Modify "run_meta_test.py" according to your own estimated parameters (C, N, R). These values can be updated by modifying the numbers in the py file.
