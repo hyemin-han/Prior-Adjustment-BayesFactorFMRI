@@ -14,6 +14,14 @@ import shutil
 # proportion default = .1 (R)
 # percentile default = .9 (P)
 
+# parameters
+# Contrast (C)
+C = .551914551595074
+# Noise (N)
+N = .329079935522663
+# Proportion of true positives
+R = .129173568930609
+
 # use four cores
 # you may change this value as per your resource availability
 cores = 4
@@ -36,11 +44,13 @@ def calc_scale(type=0, contrast=1, SD = .5, proportion = .1, percentile = .9):
 
 # calculate scales for four trials 80% to 95%
 # with results from previous meta-analysis
-scale707 = calc_scale(0,.551914551595074,.329079935522663,.129173568930609,.80)
-scale80 = calc_scale(1,.551914551595074,.329079935522663,.129173568930609,.80)
-scale85 = calc_scale(1,.551914551595074,.329079935522663,.129173568930609,.85)
-scale90 = calc_scale(1,.551914551595074,.329079935522663,.129173568930609,.90)
-scale95 = calc_scale(1,.551914551595074,.329079935522663,.129173568930609,.95)
+
+
+scale707 = calc_scale(0,C,N,R,.80)
+scale80 = calc_scale(1,C,N,R,.80)
+scale85 = calc_scale(1,C,N,R,.85)
+scale90 = calc_scale(1,C,N,R,.90)
+scale95 = calc_scale(1,C,N,R,.95)
 
 start =0  
 # default prior (.707)
