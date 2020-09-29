@@ -1,8 +1,17 @@
 # Prior-Adjustment-BayesFactorFMRI
 Adjusting prior distributions for Bayesian second-level fMRI analysis
 
+This repository includes files for the prior adjustment for Bayesian second-level fMRI analysis. There are two case examples available: the simulation data test (/Simulation) and the working memory fMRI data test (/Working_memory_fMRI). Directions for each example are available in the following sections. <br />
+In order to run the tests, both Python (tested with 3.7.3; >= 3.7.3 required, but 3.8 is not recommended) and R (tested with 4.0.2; >= 3.5 required) are required. Here are the list of dependencies for each language: <br />
+1. Python: tkinter (developed with 8.6), shutil, pandas (developed with 0.24.2), nibabel (developed with 2.4.1), rpy2 (developed with 3.2.2), numpy (developed with 1.16.2), nilearn (developed with 0.6.2), subprocess. **Specified directions about how to install required dependencies are available in https://github.com/hyemin-han/BayesFactorFMRI/blob/master/README.md**
+2. R: BayesFactor (developed with 0.9.12-4.2), metaBMA (developed with 0.6.1), oro.nifti (developed with 0.9.1), imager, tools
+
 For further details about required software and dependencies, refer to and cite:<br />
-Han, H. (in press). BayesFactorFMRI: Implementing Bayesian second-level fMRI analysis with multiple comparison correction and Bayesian meta-analysis of fMRI images with multiprocessing. *Journal of Open Research Software*. (currently available at bioRxiv https://bit.ly/34t7555)
+- Han, H. (in press). BayesFactorFMRI: Implementing Bayesian second-level fMRI analysis with multiple comparison correction and Bayesian meta-analysis of fMRI images with multiprocessing. *Journal of Open Research Software*. (currently available at bioRxiv https://bit.ly/34t7555) <br />
+
+In addition, please cite these papers as well:<br />
+- Bayesian second-level fMRI analysis with multiple comparison correction: Han, H. (2020). Implementation of Bayesian multiple comparison correction in the second-level analysis of fMRI data: With pilot analyses of simulation and real fMRI datasets based on voxelwise inference. *Cognitive neuroscience, 11*(3), 157-169. 
+- Bayesian meta-analysis of fMRI data: Han, H., & Park, J. (2019). Bayesian meta-analysis of fMRI image data. *Cognitive neuroscience, 10*(2), 66-76.
 
 # Simulation data test
 Source code and data files for the simulated data test are available in /Simulation. The test can be performed with "run_cycle.py". Required parameters can be entered on command line. Here are guidelines about how to enter the parameters:<br />
