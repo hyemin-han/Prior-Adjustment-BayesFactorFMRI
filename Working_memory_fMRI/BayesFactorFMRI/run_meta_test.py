@@ -55,8 +55,8 @@ scale95 = calc_scale(1,C,N,R,.95)
 start =0  
 # default prior (.707)
 bcms = bcm.bayes_correction_main('mask.nii','./list.csv',cores,scale707,0, start)
-shutil.move(('./BFs_%d.nii')%(start),('./BFs_707.nii'))
-shutil.move(('./bf3_05_%d.nii')%(start), ('./Bayes_707.nii') )
+shutil.move(('./BFs_%d.nii')%(start),('./Bayes_707.nii'))
+shutil.move(('./bf3_05_%d.nii')%(start), ('./Bayes_707_3.nii') )
 shutil.move(('./Ds_%d.nii')%(start), ('./Ds_707.nii') )
 
 # with P = 80%
