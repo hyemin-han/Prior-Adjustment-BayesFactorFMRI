@@ -32,5 +32,8 @@ If you want to test the working memory fMRI data as described in the paper, plea
 2. BayesFactorFMRI: Files for Bayesian second-level fMRI analysis with prior adjustment are available. Run "run_meta_test.py" to perform Bayesian analysis (five conditions: no adjustment, P = 80%, 85%, 90%, 95%). Resultant nii files will be created in the same folder.
 3. Performance_evaluation: Files for performance comparison are available. In this folder, resultant nii files from BayesFactorFMRI and SPM 12 are provided. In addition, meta-analysis results for evaluation created by BayesMeta, BrainMap, NeuroSynth, and NeuroQuery are also available. Run "test_overlap_working.R" to perform performance evaluation.
 
+# Working memory fMRI data test (2)
+The same test can be done with another working memory fMRI dataset in /Working_memory_fMRI_2. Among three steps in the prior section, **only 2 and 3** can be performed with the second working memory fMRI dataset.
+
 # Want to test the method with your own nii files?
 Please refer to https://github.com/hyemin-han/Prior-Adjustment-BayesFactorFMRI/blob/master/Apply.md
