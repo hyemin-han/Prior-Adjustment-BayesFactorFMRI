@@ -1,4 +1,5 @@
-# Preprint is available at bioRxiv https://bit.ly/3goFZAd
+# Please cite the following article:
+Han, H. (2021). A method to adjust a prior distribution in Bayesian second-level fMRI analysis. PeerJ, 9, e10861. https://doi.org/10.7717/peerj.10861 
 
 # Prior-Adjustment-BayesFactorFMRI
 Adjusting prior distributions for Bayesian second-level fMRI analysis
